@@ -20,11 +20,7 @@
         });
 
     });
-<<<<<<< HEAD
-    if (typeof lightGallery != 'undefined') {
-=======
     if (lightGallery) {
->>>>>>> 125570d15ea88498f636e64f6a6543b80187a748
         var options = {
             selector: '.gallery-item',
         };
@@ -123,9 +119,4 @@
             $(this).addClass('top-level-menu');
         }
     });
-
-<<<<<<< HEAD
 })(jQuery);
-=======
-})(jQuery);
->>>>>>> 125570d15ea88498f636e64f6a6543b80187a748
